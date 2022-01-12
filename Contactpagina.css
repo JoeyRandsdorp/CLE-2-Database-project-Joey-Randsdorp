@@ -1,0 +1,139 @@
+ /*AFKORTINGEN:
+ MB = menubar
+ HS= herosection
+
+ */
+ *{                                                                                           /*start menubar coding*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button{
+    color: #edf0f1;
+    text-decoration: 0;
+}
+
+header{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 30px 10%;
+     
+    background-color: black;
+}
+
+.logo{  
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-links{
+ list-style:none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 50px;
+}
+
+.nav-links li a:hover{
+    background-color: red;
+    padding: 15px;
+}
+
+.Login{
+    margin-left: auto;
+}
+.LoginButton{
+    padding: 9px 25px;
+   
+
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.LoginButton:hover{
+    background-color: red;
+}
+                                                                                                     /*End menubar Coding*/
+  
+  main {                                                                                            /*Start Herosection coding*/
+    padding: 3vmin;   
+
+  }
+  
+  .HeroSection{                           
+    background-color: salmon;
+    width: 100%; 
+    text-align: center;
+    
+    height: 30vh;
+    font-size: 500%;
+ }
+
+                                                                                                   /*End Herosection coding*/
+
+
+
+
+                                                                                                   
+                                                                                                    /*start Footer coding*/
+ Footer{
+    display: flex; 
+        background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 7vh;
+    cursor: pointer;
+ }                            
+
+.Contact{
+text-align: center;
+
+
+width: 60%;
+
+background-color: black;
+color: white;
+}  
+
+.Contact p:hover, .Official p:hover{
+Color: #55a9ca
+}
+
+.Contact p{
+    padding: 13px;
+}
+
+.Official{
+ width: 40%;
+
+ display: flex;
+ 
+ color: white;
+
+}
+
+.Official p{
+    padding: 13px 15px;
+}
+
+.Official img{
+    margin: 8px 20px;
+
+    width: 32px;
+    height: 32px;
+  
+}
+                                                                                            /* End Footer coding */
